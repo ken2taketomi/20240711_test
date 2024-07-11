@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/login.css">
+    
+    <!-- JS -->
+    <script type="text/javascript" src="javascript/jquery-3.6.2.min.js"></script>
+    <script type="text/javascript" src="javascript/login.js"></script>
+    
+    <!-- 画面名 -->
+    <title>github課題</title>
+
+  </head>
+  <body>
+    
+    <!-- 画面名 -->
+    <div id="pgTitle" class="accent">ログイン</div>
+    
+    <!-- コンテンツ -->
+    <div id="contents">
+      
+      <!-- ログインID入力欄 -->
+      <label class="inptArea">
+        <span class="inptHeader">ログインID</span>
+         <input value="" type="text" class="inpt" id="login_id" name="login_id" placeholder="入力してください" />
+       </label>
+      
+      <!-- パスワード入力欄 -->
+      <label class="inptArea">
+        <span class="inptHeader">パスワード</span>
+        <input type="password" class="inpt" id="password" name="password" placeholder="入力してください" />
+      </label>
+      
+      <!-- ログインボタン -->
+      <div id="btnArea">
+        <button onclick="location.href='list.html'" type="button" id="loginBtn" class="accent">ログイン</button>
+      </div>
+
+    </div>
+    <!-- コンテンツ end -->
+
+  </body>
+</html>
